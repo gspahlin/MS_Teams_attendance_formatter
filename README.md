@@ -27,7 +27,7 @@ and save the file as CSV UTF-8
 prompt to tell the program what to save your reformatted output as. 
 
 Note: Your MS Teams output file must be formatted specifically as shown in the pictures and examples in this repo. Unless the software has changed, this is how it
-will be formatted if you don't change the .csv file. Changing the format will cause the program to fail. 
+will be formatted if you don't change the .csv file. Changing the format will cause the program to fail. The program also assumes that names will be in the format first last, and separated by a space.
 
 Files and Folders
 
