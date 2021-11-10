@@ -13,6 +13,10 @@ rather than about how many times they entered and left. Running the program will
 <br><br>
 <img src="https://github.com/gspahlin/MS_Teams_attendance_formatter/blob/master/figs/postformat.jpg">
 
+The output is alphabetized by last name, and names are printed last, first. This works regardless of middle names. The script also calculates the total time the
+attendees were in the room, so that you can easily see that for meetings where participants experienced connection problems or similar.
+
+
 Directions. 
 
 1) In MS teams you can obtain an attendance list in .CSV format. You can download this in the participants section of the meeting. Here is a tutorial (https://www.youtube.com/watch?v=iAkZ1tlj1qg) 
