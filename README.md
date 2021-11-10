@@ -22,7 +22,7 @@ Directions.
 1) In MS teams you can obtain an attendance list in .CSV format. You can download this in the participants section of the meeting. Here is a tutorial (https://www.youtube.com/watch?v=iAkZ1tlj1qg) 
 if you've never done that. Step 1 is to download that list.
 
-2) Go to the downloads folder and open the list with excel. 
+2) Go to the downloads folder and open the csv with excel. 
 
 3) MS Teams will not export the .csv correctly so you need to resave the file - use the "save as" option to save the file to the same folder as 
 attendance_formatter_v1.exe, and select the CSV UTF-8 option when saving the file.
