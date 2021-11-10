@@ -1,8 +1,14 @@
 import pandas as pd
 import datetime as dt
 
+#bring in input to tell the program which file to parse
+
+target = input('''Please write the name of the file for analysis - it should be a UTF-8 encoded .csv in this folder:
+
+''')
+
 #note - I had to reencode the csv in order to load it: it was not properly UTF-8 encoded
-attd = pd.read_csv('Attendance.csv')
+attd = pd.read_csv(target)
 
 #change the timestamp field so that it functions as a timestamp
 attd['Timestamp'] = pd.to_datetime(attd['Timestamp'])
@@ -119,6 +125,19 @@ att_df['Name'] = formatted
 #sort the dataframe
 att_df = att_df.sort_values(by = 'Name')
 
+#take input to ask what the file name should be
+
+out_name = input('''
+
+write a name for the output file, ending with .csv:
+
+''')
+
 #Write out a .csv
 
-att_df.to_csv('formatted_attendance.csv', index = False)
+att_df.to_csv(out_name, index = False)
+
+#end
+print('File written, closing down')
+
+quit()
