@@ -16,6 +16,8 @@ rather than about how many times they entered and left. Running the program will
 The output is alphabetized by last name, and names are printed last, first. This works regardless of middle names. The script also calculates the total time the
 attendees were in the room, so that you can easily see that for meetings where participants experienced connection problems or similar.
 
+If you want to use the script simply download the .exe file and place it in a folder on your desktop, then follow the directions below.
+
 
 Directions. 
 
