@@ -5,12 +5,12 @@ MS Teams is a useful and popular teleconferencing suit. It's currently being use
 the more useful features of MS teams (particularly in the context of teaching and learning) is the ability to download a .csv with attendance information. The usefulness
 of this feature is somewhat attenuated by its annoyances, though. The names of the people in your meeting show up in a single column, so they will be alphabetized
 by first name. The attendance sheet also reads like an event log - every attendee shows up several times based on whether they were entering or leaving. 
-<br>
+<br><br>
 <img src="https://github.com/gspahlin/MS_Teams_attendance_formatter/blob/master/figs/preformat.jpg">
 
 This program is designed to quickly reformat an MS Teams output to make it more readable and to give information about how much time an attendee spent in a meeting
 rather than about how many times they entered and left. Running the program will quickly write a new .csv with the format seen below.
-<br>
+<br><br>
 <img src="https://github.com/gspahlin/MS_Teams_attendance_formatter/blob/master/figs/postformat.jpg">
 
 Directions. 
