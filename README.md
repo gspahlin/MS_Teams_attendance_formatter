@@ -37,7 +37,8 @@ will be formatted if you don't change the .csv file. Changing the format will ca
 
 Files and Folders
 
-attendance_formatter_v1.exe - working program to reformat you attendance csv. This can be downloaded and run, as is.
+attendance_formatter_v1.exe - working program to reformat you attendance csv. This can be downloaded and run, as is. This program was written in python first
+and then converted to an exe using auto-py-to-exe. This file is a little larger than you may expect (27 mb), as it requires Pandas and Numpy. 
 
 attendance_formatter_v1.py - this is a python script version of the same program. you can use this instead if you have python installed, and know how to use it
 
