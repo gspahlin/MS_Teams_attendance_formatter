@@ -24,8 +24,8 @@ if you've never done that. Step 1 is to download that list.
 
 2) Go to the downloads folder and open the list with excel. 
 
-3) MS Teams will not export the .csv correctly so you need to resave the file - use the "save as" option to save the file to the same folder as attendance_formatter_v1.exe, 
-and save the file as CSV UTF-8
+3) MS Teams will not export the .csv correctly so you need to resave the file - use the "save as" option to save the file to the same folder as 
+attendance_formatter_v1.exe, and select the CSV UTF-8 option when saving the file.
 
 4) Double click the .exe file. A console window will show up - you will be asked to type the name of the input file first, and then hit enter. You will get the same 
 prompt to tell the program what to save your reformatted output as. 
